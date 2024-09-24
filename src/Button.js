@@ -1,11 +1,11 @@
 import './App.css';
-import { callLockedApi } from './apiCall';
+import { callLockedApi } from './lockerAPICall';
 
-function Button({ text, icon, api }) {
+function Button({ text, icon, lockerId }) {
 
     return (
         <div>
-            <button className='img-button' onClick={()=>callLockedApi(api)}>
+            <button className='img-button' onClick={()=>callLockedApi(lockerId)}>
                 <img src={require(`./assets/${icon}`)} width={"300px"}></img>
                <span>{text}</span> 
             </button>

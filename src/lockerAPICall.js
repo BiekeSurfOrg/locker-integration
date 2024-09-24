@@ -1,10 +1,12 @@
 import axios from "axios"
 
-export function callLockedApi(locker){
+export function callLockedApi(lockerId){
+    const URL = "https://lockerip:app-port/api/open/"
     const apiKey = "example Api key"
-    console.log(`https://lockerip:app-port/api/open/${locker}`, apiKey);
+
+    console.log(URL+lockerId,"plus test" ,apiKey);
     
-    axios.post(`https://lockerip:app-port/api/open/${locker}`,{},{
+    axios.post(URL+lockerId,{},{
         headers:{
                 "accept":"*/*",
                 "X-API-KEY":apiKey
