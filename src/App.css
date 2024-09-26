@@ -8,9 +8,10 @@
 
 .buttons {
   display: flex;
-    gap: 300px;
+  gap: 300px;
 }
-.img-button{
+
+.img-button {
   display: flex;
   flex-direction: column;
   text-align: center;
@@ -18,7 +19,8 @@
   border: none;
 
 }
-.img-button > span{
+
+.img-button>span {
   width: 100%;
   text-align: center;
 }
