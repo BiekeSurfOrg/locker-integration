@@ -10,7 +10,7 @@ to start the local env server
 
 ## Starting the project
 
-cd into the project folder / open a terminal from the IDE and run npm install, after everything is installed run `npm run start-dev`
+cd into the project folder / open a terminal from the IDE and run `npm install`, after everything is installed run `npm run start-dev`
 
 ## Components 
 
