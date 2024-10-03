@@ -42,3 +42,9 @@ there are 3 components in the lockerapp
    has 2 variables URL: the url to the locker and apiKey: which is the api key, no need to explain further.
 
    the function uses axios to make an http POST request to the lockers end point with an empty object as a body might need to be changed in the future
+
+## Deployment 
+
+ Currently all applications are deployed on heroku with my (BorisStankov98) GitHub account and the repositories are forks from the BiekeSurfOrg GitHub Account. 
+
+ The whole deployment process is automated via the scripts mentioned above, so all you need to do in Heroku is select the correct branch you would like to deploy and click on deploy,the rest is taken care of. 
