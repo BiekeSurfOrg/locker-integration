@@ -2,11 +2,21 @@
 
 ## Available Scripts
 
-In the project directory, you can run:
-
 ### `npm run start-dev`
+(Use for local development)
+Is used to start the local development server/env.
 
-to start the local env server
+###   `start`
+Is used to serve the applications build(dist) folder when deployed.
+
+###  `start-dev-server`
+Is used to imitate the deployed product by building the app and serving the build(dist) folder.
+
+###  `build`
+Builds the application.
+
+###    `test`
+Runs the test's which we dont have. :)
 
 ## Starting the project
 
