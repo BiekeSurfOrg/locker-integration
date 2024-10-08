@@ -18,7 +18,7 @@ export function callLockedApi(lockerId) {
     xhr.open("POST", "http://10.11.12.235/api/open/" + lockerId, true);
     xhr.setRequestHeader('accept', '*/*');
     xhr.setRequestHeader('X-API-KEY', apiKey);
-    xhr.serRequestHeader("Access-Control-Allow-Origin": "*");
+    xhr.setRequestHeader("Access-Control-Allow-Origin", "*");
     xhr.send(JSON.stringify({
     }));
 
