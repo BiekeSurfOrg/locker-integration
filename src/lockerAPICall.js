@@ -1,7 +1,7 @@
 import axios from "axios"
 
 export function callLockedApi(lockerId) {
-    const URL = "http://10.11.12.235/api/open/"
+    const URL = "http://localhost:8080/test/"
     const apiKey = "azk_42163e54-49d8-49b3-89c6-96a734e73daa"
 
 //    console.log(URL + lockerId, "plus test", apiKey);
@@ -15,7 +15,7 @@ export function callLockedApi(lockerId) {
 
 
     var xhr = new XMLHttpRequest();
-    xhr.open("POST", "http://10.11.12.235/api/open/" + lockerId, true);
+    xhr.open("GET", URL + lockerId, true);
     xhr.setRequestHeader('accept', '*/*');
     xhr.setRequestHeader('X-API-KEY', apiKey);
     xhr.setRequestHeader("Access-Control-Allow-Origin", "*");
