@@ -9,8 +9,8 @@ function Buttons() {
       </div>
       <div className='buttons'>
         <Button text={"Keyboard"} icon={"keyboard.jpg"} lockerId={'1'}></Button>
-        <Button text={"Mouse"} icon={"mouse.png"} lockerId={'2'}></Button>
-        <Button text={"Headset"} icon={"headset.png"} lockerId={'3'}></Button>
+        <Button text={"Mouse"} icon={"mouse.png"} lockerId={'3'}></Button>
+        <Button text={"Headset"} icon={"headset.png"} lockerId={'2'}></Button>
       </div>
     </div>
   );
